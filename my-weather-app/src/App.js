@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import WeatherForecast from "../src/components/MyWeather" 
+import WeatherForecast from "../src/components/MyWeather"
 
 class App extends Component {
   render() {
     return (
-      <div className="App">                
-         <WeatherForecast/>
-              </div>
+      <div className="App">
+        <WeatherForecast />
+      </div>
     );
   }
 }
